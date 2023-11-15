@@ -75,6 +75,7 @@ export default async function InvoicesTable({ query, currentPage }: { query: str
                                     <td className='whitespace-nowrap py-3 pl-6 pr-3'>
                                         <div className='flex items-center gap-3'>
                                             <Image
+                                                alt='invoice'
                                                 src={invoice.image_url}
                                                 className='rounded-full'
                                                 width={28}
