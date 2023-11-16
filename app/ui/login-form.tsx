@@ -1,5 +1,5 @@
 import { lusitana } from '@/app/ui/fonts';
-import { AtSymbolIcon, KeyIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline';
+import { AtSymbolIcon, KeyIcon } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
 
@@ -44,7 +44,6 @@ export default function LoginForm() {
                     </div>
                 </div>
                 <LoginButton />
-                <div className='flex h-8 items-end space-x-1'>{/* Add form errors here */}</div>
             </div>
         </form>
     );
